@@ -1,0 +1,37 @@
+{
+  "name": "constructor-lecturas-club",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Speak Easy — Constructor de lecturas: ficha (tipo, género, tamaño) → texto con Claude, ilustraciones con OpenAI y PDF maquetado",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "@sparticuz/chromium": "^153.0.0",
+    "next": "16.4.6",
+    "openai": "^7.55.0",
+    "pagedjs": "^0.4.3",
+    "playwright-core": "^1.65.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "sharp": "^0.35.5",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "playwright": "^1.65.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
